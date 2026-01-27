@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Gotham_Book;
+  src: url(Fonts/GothamBook.ttf);
+}
+
+@font-face {
+  font-family: Gotham_Bold;
+  src: url(Fonts/Gotham-Bold.otf);
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  font-size: 1.6rem;
+  font-family: Gotham_Book;
+  color: #333;
+  line-height: 140%;
+}
+
+h1 {
+  color: #00437a;
+  font-family: Gotham_Bold;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0;
+  background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1020px;
+    padding-top: 30px;
+}
+
+.tick {
+  color: #fbba00;
+  font-size: 2.4rem;
+}
+
+.list {
+  margin: 0;
+}
